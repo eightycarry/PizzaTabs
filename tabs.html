@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tabs!</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- jQuery first -->
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <!-- Popper and Bootstrap second -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Our code last -->
+    <script src="tabs.js"></script>
+</head>
+<body>
+
+    <div class="container">
+        <!--tab area -->
+        <nav>
+            <ul class="nav nav-tabs" id="tabs">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#buildPizza">Build Your Pizza</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#deliveryInfo">Delivery Details</a>
+                </li>
+            </ul>
+        </nav>
+
+        <!--content area -->
+        <div class="tab-content">
+            <div id="buildPizza" class="tab-pane active">
+
+                <h2>Build your Favorite Pizza!</h2>
+
+                <button>Click Me!</button>
+
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad asperiores debitis eaque harum soluta, veritatis. Aliquid, blanditiis cupiditate doloribus eaque numquam placeat quas repellat voluptatem? Amet beatae explicabo quas repellendus.
+                </p>
+
+            </div>
+
+            <div id="deliveryInfo" class="tab-pane">
+
+                <h2>Address Goes Here</h2>
+
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores blanditiis enim esse id ipsam libero maiores nostrum odio perspiciatis provident quaerat qui quia quod reiciendis repudiandae, sed sint tenetur voluptatum?
+                </p>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>
